@@ -69,7 +69,7 @@ body {
         flex-direction: column;
         height: auto;
         height: 100%;
-        padding: 50%;
+        padding-bottom: 5px;
 
     }
 }
