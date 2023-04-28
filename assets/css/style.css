@@ -66,9 +66,10 @@ body {
 
 @media screen and (max-width: 480px){
     .clock{
-        flex-direction: row;
+        flex-direction: column;
         height: auto;
         height: 100%;
+        padding: 50%;
 
     }
 }
