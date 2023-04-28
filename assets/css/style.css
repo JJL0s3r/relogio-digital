@@ -1,8 +1,81 @@
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  max-width: 550px;
+  background: transparent;
+  border-radius: 3px;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+.clock div {
+  height: 170px;
+  width: 100%;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  border-radius: 6px;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0;
+}
+
+.clock div#hours {
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 15px;
+}
+
+.clock div.time {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .clock {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+
+/*
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;}
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 body {
     height: 100vh;
@@ -14,7 +87,6 @@ body {
     padding: 0 6%;
     
 }
-
 
 
 .clock {
@@ -64,3 +136,4 @@ body {
 
     }
 }
+*/
